@@ -1,0 +1,28 @@
+{
+  "name": "mumble-bot",
+  "version": "0.0.1",
+  "description": "mumble bot based on node-mumble",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dayz-social/node-mumble-bot.git"
+  },
+  "keywords": [
+    "mumble",
+    "bot"
+  ],
+  "author": "Adam Snodgrass <mrgrassplays@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dayz-social/node-mumble-bot/issues"
+  },
+  "homepage": "https://github.com/dayz-social/node-mumble-bot",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "lodash": "^2.4.1",
+    "mumble": "0.0.2"
+  }
+}

@@ -5,7 +5,7 @@ Example usage
 
 ```js
 var fs = require('fs');
-var Bot = require('../');
+var Bot = require('mumble-bot');
 
 var bot = new Bot({
 	user: 'username',
@@ -29,6 +29,7 @@ bot.on('connected', function (connection) {
 
 ## Todo
 
+- Publish to npm
 - Add better documentation
 - Figure out out permissions and ACL commands
 
